@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
 
             //Khi bam button, intent sang man hinh so 2
             //De mo ra man hinh moi, chung ta su dung intent
-            Intent intent = new Intent(this, SecondActivity.class);
+            Intent intent = new Intent(this, RecycleView.class);
             startActivity(intent);
         });
     }
